@@ -153,6 +153,6 @@ module.exports = defineConfig([
   },
 
   {
-    ignores: ['dist/*'],
+    ignores: ['dist/*', 'tailwind.config.js', 'postcss.config.js'],
   },
 ]);
