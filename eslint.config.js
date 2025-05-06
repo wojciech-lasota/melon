@@ -153,6 +153,11 @@ module.exports = defineConfig([
   },
 
   {
-    ignores: ['dist/*', 'tailwind.config.js', 'postcss.config.js'],
+    ignores: [
+      'dist/*',
+      'tailwind.config.js',
+      'postcss.config.js',
+      'metro.config.js',
+    ],
   },
 ]);
